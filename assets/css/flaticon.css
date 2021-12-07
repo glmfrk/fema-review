@@ -1,0 +1,50 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 05/08/2019 12:34
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("fonts//Flaticon.eot");
+  src: url("fonts//Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("fonts//Flaticon.woff2") format("woff2"),
+       url("fonts//Flaticon.woff") format("woff"),
+       url("fonts//Flaticon.ttf") format("truetype"),
+       url("fonts//Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("fonts/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+  font-style: normal;
+}
+
+.flaticon-magnifier:before { content: "\f100"; }
+.flaticon-shopping-bag:before { content: "\f101"; }
+.flaticon-shield:before { content: "\f102"; }
+.flaticon-layers:before { content: "\f103"; }
+.flaticon-light-bulb:before { content: "\f104"; }
+.flaticon-alarm-clock:before { content: "\f105"; }
+.flaticon-basketball:before { content: "\f106"; }
+.flaticon-tattoo:before { content: "\f107"; }
+.flaticon-eagle:before { content: "\f108"; }
+.flaticon-heart:before { content: "\f109"; }
+.flaticon-innovation:before { content: "\f10a"; }
+.flaticon-inverted-commas:before { content: "\f10b"; }
+.flaticon-play-button:before { content: "\f10c"; }
+.flaticon-quick-dry:before { content: "\f10d"; }
+.flaticon-tattoo-1:before { content: "\f10e"; }
+.flaticon-tattoo-machine:before { content: "\f10f"; }
+.flaticon-tattoo-machine-1:before { content: "\f110"; }
+.flaticon-wet:before { content: "\f111"; }
+.flaticon-wings:before { content: "\f112"; }
+.flaticon-quotation:before { content: "\f113"; }
